@@ -23,7 +23,6 @@
   <div class="container mt-4">
     @yield('content')
     </div>
-    
 
     <!-- Optional JavaScript; choose one of the two! -->
 
