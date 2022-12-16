@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\HashController;
 
 
 /*
@@ -22,3 +23,6 @@ Route::get('/', function () {
 
 Route::get('/login', [LoginController::class, 'index']);
 Route::get('/register', [RegisterController::class, 'index']);
+
+//routing for hash
+Route::get('/hash', [HashController::class, 'hash']);
