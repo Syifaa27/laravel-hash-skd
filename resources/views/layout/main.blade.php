@@ -18,12 +18,11 @@
     <title>Faza Blog | {{ $title }}</title>
   </head>
   <body>
-  @include('partials.navbar');
+  @include('partials.navbar')
 
   <div class="container mt-4">
     @yield('content')
     </div>
-    
 
     <!-- Optional JavaScript; choose one of the two! -->
 
